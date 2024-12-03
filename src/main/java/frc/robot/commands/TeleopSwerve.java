@@ -31,6 +31,7 @@ public class TeleopSwerve extends Command {
     this.isFieldRelative=isFieldRelative.getAsBoolean();
     //this.omega=omega;
     this.isOpenLoop=isOpenLoop.getAsBoolean();
+    this.swerve = swerve;
     addRequirements(swerve);
   }
 

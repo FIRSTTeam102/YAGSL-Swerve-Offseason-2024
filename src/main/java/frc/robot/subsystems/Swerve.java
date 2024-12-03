@@ -8,7 +8,6 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.function.DoubleSupplier;
 
 //import edu.wpi.first.wpilibj.Filesystem;
 import swervelib.parser.SwerveParser;
@@ -140,6 +139,5 @@ public class Swerve extends SubsystemBase {
    
   @Override
   public void periodic() {
-    swerveDrive.updateOdometry();
   }
 }
